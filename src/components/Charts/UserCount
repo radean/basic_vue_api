@@ -1,0 +1,41 @@
+import { Pie } from 'vue-chartjs'
+
+export default {
+  extends: Pie,
+  data(){
+    return{
+      impData: [20,33],
+      datacollection: {
+        //Data to be represented on x-axis
+        labels: ['Users','Stores'],
+        datasets: [{
+          label: 'UserData',
+          defaultFontColor: '#fff',
+          backgroundColor: '#f87979',
+          pointBackgroundColor: 'white',
+          borderWidth: 1,
+          pointBorderColor: '#249EBF',
+          //Data to be represented on y-axis
+          data: [this.impData[0], 20]
+          }],
+      },
+      options: {
+        borderWidth: 0,
+        legend: {
+          // position: 'bottom',
+
+          labels: {
+            // This more specific font property overrides the global property
+            fontColor: 'white',
+
+          }
+        }
+      }
+    }
+  },
+  props: ['data'],
+  mounted() {
+    //renderChart function renders the chart with the datacollection and options object.
+    this.renderChart(this.datacollection,this.options)
+  }
+}
