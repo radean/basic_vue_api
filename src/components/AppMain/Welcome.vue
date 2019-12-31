@@ -1,7 +1,7 @@
 <template>
   <v-container grid-list-lg>
-    <h4>Welcome to MCS</h4>
-    <h2>Get started here.</h2>
+    <h4>Welcome to Whoosh Tester APIs</h4>
+    <h6>Please push your POST on api/v1/.</h6>
   </v-container>
 </template>
 
