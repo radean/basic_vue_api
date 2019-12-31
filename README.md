@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # testapi
 
 > A Vue.js project
@@ -22,5 +21,3 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 =======
 # basic_vue_api
-Api Setup for vue
->>>>>>> 23a171e654c0499c2913bcbd8e62f22d881ca9a9
