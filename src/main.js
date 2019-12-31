@@ -47,13 +47,13 @@ new Vue({
   components: { App },
   created (){
     var firebaseConfig = {
-      apiKey: "AIzaSyDsQvtEgYT_SiYeZ7YXtbAP0MLE1rudkJY",
-      authDomain: "bams-e190d.firebaseapp.com",
-      databaseURL: "https://bams-e190d.firebaseio.com",
-      projectId: "bams-e190d",
-      storageBucket: "bams-e190d.appspot.com",
-      messagingSenderId: "110309011275",
-      appId: "1:110309011275:web:31a820dfd88056ed4982ce"
+      apiKey: "AIzaSyDgVzKdDr24zsQvJ6KS2ngf-sfDpcwJS3k",
+      authDomain: "testapi-69d9f.firebaseapp.com",
+      databaseURL: "https://testapi-69d9f.firebaseio.com",
+      projectId: "testapi-69d9f",
+      storageBucket: "testapi-69d9f.appspot.com",
+      messagingSenderId: "453639137818",
+      appId: "1:453639137818:web:51887fdc0160730e2fffa3"
     };
     firebase.initializeApp(firebaseConfig);
   }

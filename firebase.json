@@ -1,14 +1,17 @@
 {
   "hosting": {
-    "public": "./dist",
+    "site": "testapi-whoosh",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [ {
-      "source": "**",
-      "destination": "/index.html"
-    } ]
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }
